@@ -1,0 +1,23 @@
+.card-width {
+  width: 25rem;
+}
+
+.blur-content {
+  color: #6c757d;
+}
+
+.fa-facebook-color {
+  color: white;
+}
+
+.pass-box {
+  width: 90% !important;
+  display: inline;
+  border-right: none !important;
+}
+
+.border {
+  border: 1px;
+  border-left: none !important;
+  padding: 9px 8px 11px 7px;
+}

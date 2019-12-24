@@ -1,0 +1,49 @@
+<div class="content-center">
+  <!-- start first -->
+  <div class="card text-center card-width">
+    <div class="card-body">
+
+      <h5 class="card-title mb-5"><strong>{{appTitle}}</strong></h5>
+      <!--login form -->
+      <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+
+        <div class="mb-1">
+          <input type="email" formControlName="email" class="form-control" placeholder="Email">
+        </div>
+
+        <div class="mb-3">
+          <span> <input type="{{ show ? 'text' : 'password' }}" formControlName="password" class="form-control pass-box"
+              placeholder="Password">
+            <i class="fa fa-eye border" *ngIf="!show" (click)="togglePassword()" aria-hidden="true"></i>
+            <i class="fa fa-eye-slash border" *ngIf="show" (click)="togglePassword()" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary form-control" [disabled]="!loginForm.valid">Log In</button>
+        </div>
+
+      </form>
+
+      <div class="hr-sect mb-3">OR</div>
+
+      <div class="mb-2">
+        <span> <i class="fa fa-facebook-official fa-facebook-color" aria-hidden="true"></i> <a href=""> Login with
+            Facebook</a> </span>
+      </div>
+      <div>
+        <a href="">Forgot Password?</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- end first card -->
+
+  <!-- start secound card -->
+  <div class="card text-center card-width mt-3">
+    <div class="card-body">
+      <span> Don't have an account? <a routerLink="/auth/signup">Sign up</a> </span>
+    </div>
+  </div>
+  <!-- end Secoud card -->
+</div>

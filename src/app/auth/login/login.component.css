@@ -1,0 +1,15 @@
+.card-width {
+  width: 25rem;
+}
+
+.pass-box {
+  width: 90% !important;
+  display: inline;
+  border-right: none !important;
+}
+
+.border {
+  border: 1px;
+  border-left: none !important;
+  padding: 9px 8px 11px 7px;
+}

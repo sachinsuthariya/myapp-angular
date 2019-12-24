@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* constant colors */
+.fa-facebook-color {
+  color: #3c5a98;
+}
+
+/* make content center of screen */
+.content-center {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 45%;
+  top: 25%;
+  margin-left: -100px;
+  /* half of the width  */
+  margin-top: -100px;
+  /* half of the height */
+}
+
+/* section line */
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 8px 0px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+/* form-control */
+.form-control {
+  border-radius: 0% !important;
+  border: 1px solid #e2e9f1 !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #fff !important;
+}
+
+.card-body {
+  padding: 2.25rem !important;
+}
