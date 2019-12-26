@@ -1,0 +1,18 @@
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.card {
+  border-radius: 0%;
+}
+
+.card-body {
+  padding: 1rem !important;
+}
+
+.profile-circle {
+  justify-content: center;
+  justify-items: center;
+}

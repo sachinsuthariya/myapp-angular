@@ -1,0 +1,19 @@
+.profile-img img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.profile-img {
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 0% !important;
+  height: 100%;
+  width: 100%;
+}
+
+.post-content img {
+  height: 80vh;
+  width: 100%;
+}

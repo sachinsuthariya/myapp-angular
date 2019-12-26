@@ -1,0 +1,58 @@
+.v-line {
+  border-left: 1px solid #6c757d;
+  height: 500px;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+
+hr {
+  margin-top: 0 !important;
+}
+
+ul.nostyle {
+  list-style-type: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+span a,
+.search {
+  padding: 0 1.25rem;
+  color: #000 !important;
+}
+
+.search-box {
+  font-family: Arial, FontAwesome;
+}
+
+
+/* for transition search box */
+/* .search-box {
+  width: 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+
+.search-box:focus {
+  width: 50%;
+  background: white;
+}
+
+.search-box :focus+span {
+  display: none;
+} */
